@@ -70,7 +70,7 @@ fun HomeScreen() {
 
 
         WalletSelection()
-//        CardsSelection()
+        CardsSelection()
             Spacer(modifier = Modifier.height(16.dp))
 //        FinanceSelection()
 //        CurrenciesSelection()
