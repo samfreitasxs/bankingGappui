@@ -35,7 +35,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 
-                    HomeScreenc()
+                    HomeScreen()
 
                 }
             }
@@ -55,7 +55,7 @@ class MainActivity : ComponentActivity() {
 
 @Preview
 @Composable
-fun HomeScreenc() {
+fun HomeScreen() {
     Scaffold (
       bottomBar = {
           BottomNavigationBar()
@@ -69,7 +69,7 @@ fun HomeScreenc() {
         ) {
 
 
-//        WalletSelection()
+        WalletSelection()
 //        CardsSelection()
             Spacer(modifier = Modifier.height(16.dp))
 //        FinanceSelection()
